@@ -12,7 +12,8 @@ https://www.hackerrank.com/challenges/py-introduction-to-sets/problem
 
 
 def average(array):
-    # your code goes here
+    my_set = set(array)
+    return sum(my_set) / len(my_set)
 
 
 if __name__ == '__main__':

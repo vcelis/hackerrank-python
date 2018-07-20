@@ -9,6 +9,7 @@ Created     :   19 July 2018
 
 https://www.hackerrank.com/challenges/python-lists/problem
 """
+
 methods = {
     'insert': lambda *args: args[0].insert(int(args[1]), int(args[2])),
     'print': lambda *args: print(args[0]),
